@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "948e888a-673b-4849-b243-8e13be659f80",
+		"name": "dictionary-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24208086"
+	},
+	"item": [
+		{
+			"name": "get-word-details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.dictionaryapi.dev/api/v2/entries/en_US/play",
+					"protocol": "https",
+					"host": [
+						"api",
+						"dictionaryapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v2",
+						"entries",
+						"en_US",
+						"play"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
